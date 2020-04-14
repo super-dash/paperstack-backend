@@ -1,0 +1,12 @@
+server:
+  port: 8086
+  enableRegister: true
+database:
+  host: 'database.server.host'
+  user: 'paperstack'
+  pass: 'password'
+  db: 'paperstack'
+admin:
+  default:
+    email: admin@test.com
+    pass: admin
