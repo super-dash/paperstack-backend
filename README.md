@@ -1,5 +1,7 @@
 # PaperStack API Server
 
+> 这篇文档已经部分过时，更新正在计划中……
+
 [![Build Status](https://travis-ci.com/super-dash/paperstack-api-server.svg?branch=master)](https://travis-ci.com/super-dash/paperstack-api-server)
 
 ## 开发
