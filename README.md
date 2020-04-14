@@ -2,8 +2,6 @@
 
 > 这篇文档已经部分过时，更新正在计划中……
 
-[![Build Status](https://travis-ci.com/super-dash/paperstack-api-server.svg?branch=master)](https://travis-ci.com/super-dash/paperstack-api-server)
-
 ## 开发
 
 服务器软件运行于Node.js 12，所使用的工具、语言和框架为：

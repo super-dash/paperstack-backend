@@ -52,9 +52,7 @@ export default class Database {
     public async start(): Promise<void> {
         switch (process.env.NODE_ENV) {
             default:
-            case "production": {
-                throw "未实现数据库的production模式设置。";
-            }
+            case "production":
             case "development": {
                 await typeorm.createConnection(this.offlineDevConfig);
                 break;
