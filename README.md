@@ -57,5 +57,8 @@ psql -U paperstack -d paperstack -h localhost -p 5432 # 尝试使用paperstack�
 ```sh
 git clone https://github.com/super-dash/paperstack-api-server.git && cd paperstack-api-server
 yarn install
+yarn build
+
 cp conf/config.example.yml.conf conf/config.yml # 需要在配置文件中填入正确的信息
+pm2 start ecosystem.config.js
 ```
